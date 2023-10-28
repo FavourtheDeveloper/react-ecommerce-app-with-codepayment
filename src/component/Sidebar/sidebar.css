@@ -1,0 +1,25 @@
+#sidenav{
+  width: 15vw;
+  height: 100vh;
+  background-color: #0F1120;
+  color: white;
+}
+
+#sidenav h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  #sidenav .links ul{
+    margin: 0;
+  }
+
+#sidenav .links ul li{
+  list-style: none;
+  padding-top: 20px;
+  font-size: 12 px;
+}
