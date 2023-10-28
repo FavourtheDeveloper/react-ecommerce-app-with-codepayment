@@ -14,3 +14,11 @@ body{
   width: 85vw;
   overflow-y: auto;
 }
+
+
+@media screen and (max-width: 500px) {
+  .App .main{
+    width: 100vw;
+  }
+
+}

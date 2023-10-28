@@ -8,13 +8,13 @@ const Contact = () => {
     <div>
         <div className="row m-5">
             <div className="col-lg-4 text-center">
-              <Link to={}><TwitterIcon sx={{ fontSize: 100 }}/></Link>
+              <Link to="https://twitter.com/Favourthedev"><TwitterIcon sx={{ fontSize: 100 }}/></Link>
             </div>
             <div className="col-lg-4 text-center">
-                <Link><LinkedInIcon sx={{ fontSize: 100 }}/></Link>
+                <Link to="https://www.linkedin.com/in/favourthedev/"><LinkedInIcon sx={{ fontSize: 100 }}/></Link>
             </div>
             <div className="col-lg-4 text-center">
-               <Link><GitHubIcon sx={{ fontSize: 100 }}/></Link>
+               <Link to="https://github.com/FavourtheDeveloper"><GitHubIcon sx={{ fontSize: 100 }}/></Link>
             </div>
         </div>
     </div>

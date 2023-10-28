@@ -11,7 +11,7 @@ const ProductCard = ({title, imgsrc, price}) => {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
-          {price}
+          ${price}
         </Card.Text>
         <Codebutton price = {price} />
       </Card.Body>
